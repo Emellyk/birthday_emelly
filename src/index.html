@@ -4,12 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emelly</title>
+    <title>Party Emelly</title>
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Roboto:wght@400;700;900&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
-    <h1>Olá</h1>
-    <img src="./images/futuristic-of-neon-lights-with-sparkles-and-glowing-lines.jpg" alt="">
+    <header class="hero">
+        <div class="container">
+            <img class="hero__image" src="./images/b-day.png" alt="">
+            <p class="hero__text">
+                Começa em <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Studio Hall Eventos - Guarapuava/PR
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        12 e 13/07/2023 às 20hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirme sua presença
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--local">
+        <div class="container" data-aos="zoom-out-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Studio Hall Eventos</h2>
+                <ul>
+                    <li class="event__details__description">
+                        - Salão de festa
+                    </li>
+                    <li class="event__details__description">
+                        - Espaço com churrasqueira
+                    </li>
+                    <li class="event__details__description">
+                        - Bosque / Espaço camping
+                    </li>
+                    <li class="event__details__description">
+                        - Vista panorâmica das montanhas
+                    </li>
+                    <li class="event__details__description">
+                        - Piscina
+                    </li>
+                    <li class="event__details__description">
+                        - Playground para crianças
+                    </li>
+                    <li class="event__details__description">
+                        - Banheiros / Com chuveiros
+                    </li>
+                    <li class="event__details__description">
+                        - 4 ambientes reservados com colchões disponível / Acomoda 24 pessoas
+                    </li>
+                </ul>
+                <p class="event__details__description">
+                    <b>Endereço:</b> Av. Ver. Serafim Ribas, 2885 - Boqueirão, Guarapuava - PR, 85023-500
+                </p>
+                
+            </div>
+            <img class="event__image" src="./images/local.png" alt="Local">
+        </div>
+    </section>
+    <section class="event event--data event--image-left">
+        <div class="container" data-aos="zoom-out-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Datas - Programação</h2>
+                <p class="event__details__description">
+                    - O Evento inicia no dia 12/07/2023 às 20:00hrs e finaliza no dia 14/07/2023 às 12:00hrs.
+                </p>
+                <p class="event__details__description">
+                    - A festa conta com local para dormir e tomar banho, será servido comidas e bebidas.
+                </p>
+                <p class="event__details__description">
+                    - Pode levar convidados, desde que faça a confirmação de presença pelo site.
+                </p>
+            </div>
+            <img class="event__image" src="./images/dia.png" alt="Datas">
+        </div>
+    </section>
+    <section class="event event--alimentação">
+        <div class="container" data-aos="zoom-out-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Alimentação - Hospedagem</h2>
+                <p class="event__details__description">
+                    Será servido todas as principais refeições: Café da manhã, Almoço e Jantar.
+                </p>
+                <p class="event__details__description">
+                    <b>- Bebidas:</b> Água, refrigerantes, cerveja, whisky e energético.
+                </p> 
+                <p class="event__details__description">
+                    Será permitido levar bebidas e comidas.
+                </p>
+                <p class="event__details__description">
+                    <b>- Hospedagem:</b> O local possui 4 quartos com acomodações disponível para 24 pessoas. Possui uma área de camping para montar barracas.
+                </p>
+            </div>
+            <img class="event__image" src="./images/alimentacao.png" alt="Alimentação">
+        </div>
+    </section>
+    <section class="event event--lineup event--image-left">
+        <div class="container" data-aos="zoom-out-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Line-up</h2>
+                <p class="event__details__description">
+                    
+                </p>
+                <img class="event__image__line" src="./images/line.png" alt="line">
+            </div>
+            <img class="event__image" src="./images/dj.jpg" alt="Local">
+        </div>
+    </section>
+        
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

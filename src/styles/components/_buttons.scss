@@ -1,0 +1,25 @@
+@use '../variables';
+
+.button {
+    padding: 12px;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    font-family: 'Sedgwick Ave Display', cursive;
+
+    &--primary {
+        color: variables.$blue;
+        background-color: variables.$purple2;
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+        width: 100%;
+    }
+
+    @media (max-width: 1024px) {
+        display: flex;
+        text-align: center;
+    }
+}
