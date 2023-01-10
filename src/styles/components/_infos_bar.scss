@@ -14,7 +14,6 @@
             font-size: 14px;
             color: variables.$secondaryTextColor;
             
-
             b {
                 font-size: 22px;
                 display: block;
@@ -29,6 +28,11 @@
 
         &__infos {
             display: block;
+
+            &__item {
+
+                padding-bottom: 16px;
+            }
         }
     }
 

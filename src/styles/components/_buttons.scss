@@ -16,6 +16,10 @@
     @media (max-width: 640px) {
         display: block;
         width: 100%;
+
+        &--primary {
+            text-align: center;
+        }
     }
 
     @media (max-width: 1024px) {
